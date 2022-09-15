@@ -16,3 +16,9 @@ body {
   background-color: pink;
   width: 70vw;
 }
+
+#header-para {
+  background-color: aqua;
+  margin-top: 150px;
+  padding: 0px 100px;
+}
