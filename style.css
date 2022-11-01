@@ -28,6 +28,10 @@ body {
   background-color: bisque;
 }
 
+form {
+  display: flex;
+}
+
 button {
   width: 200px;
   background-color: #596d48;
