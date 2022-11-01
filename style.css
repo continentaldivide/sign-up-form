@@ -17,6 +17,10 @@ body {
   width: 70vw;
 }
 
+h2 {
+  margin: 0px;
+}
+
 #header-para {
   background-color: aqua;
   margin-top: 150px;
@@ -24,21 +28,23 @@ body {
   padding: 0px 100px 0px 50px;
 }
 
-#form {
-  background-color: bisque;
-}
-
 form {
   display: flex;
 }
 
+#form-content {
+  margin-top: 0px;
+  background-color: bisque;
+}
+
 button {
-  width: 200px;
+  width: 230px;
   background-color: #596d48;
   color: white;
   font-size: 16px;
   font-weight: bold;
   border: 0px;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
