@@ -17,6 +17,10 @@ body {
   width: 70vw;
 }
 
+#page-content > * {
+  padding-left: 50px;
+}
+
 h2 {
   margin: 0px;
 }
@@ -25,16 +29,24 @@ h2 {
   background-color: aqua;
   margin-top: 150px;
   margin-bottom: 0px;
-  padding: 0px 100px 0px 50px;
+  padding-right: 50px;
+}
+
+#form-pane {
+  margin-top: 0px;
+  background-color: bisque;
 }
 
 form {
   display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
 }
 
-#form-content {
-  margin-top: 0px;
-  background-color: bisque;
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 button {
