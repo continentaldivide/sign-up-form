@@ -54,6 +54,15 @@ form {
 
 input {
   max-width: 200px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 button {
