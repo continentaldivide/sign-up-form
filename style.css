@@ -21,15 +21,17 @@ body {
   padding-left: 50px;
 }
 
-h2 {
-  margin: 0px;
-}
-
 #header-para {
   background-color: aqua;
+  min-height: 20vh;
   margin-top: 150px;
   margin-bottom: 0px;
-  padding-right: 50px;
+  padding-right: 5vh;
+}
+
+h2 {
+  margin: 0px;
+  padding: 20px 0px;
 }
 
 #form-pane {
@@ -47,6 +49,11 @@ form {
   display: flex;
   flex-direction: column;
   width: 40%;
+  margin: 0px 40px 20px 0px;
+}
+
+input {
+  max-width: 200px;
 }
 
 button {
@@ -59,4 +66,12 @@ button {
   border-radius: 8px;
   padding: 12px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+button:active {
+  background-color: blue;
 }
