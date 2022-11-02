@@ -11,19 +11,19 @@ body {
 
 #logo-pane {
   position: relative;
-  background: no-repeat center/120% url("assets/cat.jpg");
-  background-color: lightblue;
+  background: no-repeat center/cover url("assets/cat.jpg");
   width: 30vw;
 }
 
 #logo-pane p {
   position: relative;
-  top: 90vh;
+  top: 95vh;
   color: white;
   text-align: center;
 }
 
-#logo-pane a:link, #logo-pane a:visited {
+#logo-pane a:link,
+#logo-pane a:visited {
   color: white;
 }
 
