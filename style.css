@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
 :root {
   --button-color: #596d48;
   --button-hover-color: #435236;
@@ -6,6 +8,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -69,15 +72,23 @@ form {
 .form-field {
   display: flex;
   flex-direction: column;
+  gap: 2px;
   width: 40%;
   margin: 0px 40px 20px 0px;
+}
+
+label {
+  font-size: 0.7em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
 }
 
 input {
   max-width: 200px;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
+  font-size: 1em;
 }
 
 input:focus {
@@ -96,7 +107,6 @@ button {
   border-radius: 8px;
   padding: 12px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-
 }
 
 button:hover {
@@ -105,4 +115,8 @@ button:hover {
 
 button:active {
   background-color: var(--button-press-color);
+}
+
+#bottom-pane p {
+  font-size: 1.2em;
 }
