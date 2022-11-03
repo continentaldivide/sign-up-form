@@ -37,7 +37,7 @@ body {
 }
 
 #page-content {
-  background-color: pink;
+  background-color: rgb(247, 247, 247);
   width: 70vw;
 }
 
@@ -46,7 +46,6 @@ body {
 }
 
 #header-para {
-  background-color: aqua;
   min-height: 20vh;
   margin-top: 150px;
   margin-bottom: 0px;
@@ -60,7 +59,8 @@ h2 {
 
 #form-pane {
   margin-top: 0px;
-  background-color: bisque;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 form {
