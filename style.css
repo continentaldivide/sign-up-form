@@ -120,3 +120,10 @@ button:active {
 #bottom-pane p {
   font-size: 1.2em;
 }
+
+#bottom-pane a:link,
+#bottom-pane a:visited {
+  font-weight: 600;
+  color: var(--button-color);
+  text-decoration: none;
+}
