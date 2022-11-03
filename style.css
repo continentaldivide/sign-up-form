@@ -1,3 +1,9 @@
+:root {
+  --button-color: #596d48;
+  --button-hover-color: #435236;
+  --button-press-color: #38442d;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -82,7 +88,7 @@ input:focus {
 
 button {
   width: 230px;
-  background-color: #596d48;
+  background-color: var(--button-color);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -90,12 +96,13 @@ button {
   border-radius: 8px;
   padding: 12px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 button:hover {
-  background-color: blueviolet;
+  background-color: var(--button-hover-color);
 }
 
 button:active {
-  background-color: blue;
+  background-color: var(--button-press-color);
 }
