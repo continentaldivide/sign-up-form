@@ -65,8 +65,9 @@ h2 {
 
 form {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 40vw;
+  width: 35vw;
 }
 
 .form-field {
@@ -74,7 +75,7 @@ form {
   flex-direction: column;
   gap: 2px;
   width: 40%;
-  margin: 0px 40px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 label {
@@ -84,7 +85,7 @@ label {
 }
 
 input {
-  max-width: 200px;
+  width: 300px;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
   padding: 10px;
@@ -98,6 +99,7 @@ input:focus {
 }
 
 button {
+  height: 50px;
   width: 230px;
   background-color: var(--button-color);
   color: white;
@@ -105,6 +107,7 @@ button {
   font-weight: bold;
   border: 0px;
   border-radius: 8px;
+  margin-top: 30px;
   padding: 12px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
