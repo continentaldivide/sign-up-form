@@ -24,11 +24,23 @@ body {
   width: 30vw;
 }
 
+#logo {
+  background-color: #435236;
+  position: absolute;
+  top: 15vh;
+  font-size: 3em;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
 #logo-pane p {
-  position: relative;
-  top: 95vh;
+  position: absolute;
+  top: 90vh;
   color: white;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 
 #logo-pane a:link,
